@@ -1,0 +1,12 @@
+<apex:page >
+  
+  <apex:includeLightning />
+  <div id="lightning"/>
+  
+  <script>
+      $Lightning.use('c:CreateUserApp', function(){
+          $Lightning.createComponent('c:CreateUserLO', {}, 'lightning', function(){} );
+      });
+  </script>
+  
+</apex:page>

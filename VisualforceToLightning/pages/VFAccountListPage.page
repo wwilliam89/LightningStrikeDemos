@@ -1,0 +1,24 @@
+<apex:page controller="AccountsController">  
+
+    <table class="slds-table slds-table--bordered slds-table--striped slds-table--cell-buffer" >
+      <thead>
+        <tr class="slds-text-heading--label">
+          <th scope="col"><span class="slds-truncate">Name</span></th>
+          <th scope="col"><span class="slds-truncate">Type</span></th>
+          <th scope="col"><span class="slds-truncate">Number Of Employees</span></th>
+          <th scope="col"><span class="slds-truncate">Phone</span></th> 
+        </tr>
+      </thead>
+      <tbody>
+        <apex:repeat value="{!accounts}" var="account">
+          <tr>
+            <td>{!account.Name}</td>                 
+            <td>{!account.Type}</td>
+            <td>{!account.NumberOfEmployees}</td>                 
+            <td>{!account.Phone}</td>
+          </tr>
+        </apex:repeat>
+      </tbody>
+    </table>
+
+</apex:page>

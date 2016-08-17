@@ -8,7 +8,7 @@ Source code of Demos we showed at Denver Lightning Strike event
 * Twitter Explorer Lightning Component
 
 # Lightning Actions
-<p></p>
+<p>This demo demonstrates how to migrate from javascript buttons in classic to Lightning Actions in Lightning Experience.</p>
 
 # Visualforce to Lightning Migration
 <p>This demo demonstrates how to reuse existing assets when migrating from Visualforce to Lightning. Visualforce Page “VFAccountListPage” and Lightning Component “AccountsList” shares most of the markup, as well as Apex Class “AccountsController”. The Lightning Component is aded to Lightning Experience Navigation through Lightning Page “AccountListLightningPage”.</p>
